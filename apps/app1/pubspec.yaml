@@ -38,7 +38,7 @@ dependencies:
   get_it: ^7.6.4
   collection: ^1.17.2
 
-#TODO: [akuznetsov] FIXME
+
   shake_gesture:
     git:
       url: https://github.com/horson/shake_gesture
