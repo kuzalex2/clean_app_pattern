@@ -1,0 +1,21 @@
+name: analytics_impl
+description: sample analytics implementation
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analytics: any
+  utils: any
+  engineer_menu: any
+  log: any
+
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.21.0
+  flutter_lints: ^3.0.0

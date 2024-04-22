@@ -1,0 +1,27 @@
+name: feature_notifications
+description: Feature Notifications
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+  analytics: any
+  uikit: any
+
+  engineer_menu: any
+  log: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0
+  test: ^1.21.0
+  flutter_lints: ^3.0.0

@@ -1,0 +1,20 @@
+{
+  "signupWithEmail": "Signup with Email",
+  "emailAlreadyInUse": "The email address is already in use",
+  "enterAPassword": "Enter a password",
+  "forgotPasswordButtonTitle": "Forgot your password?",
+  "inputEmailInvalidText": "Invalid email address",
+  "inputEmailPlaceholder": "Your email",
+  "inputPasswordPlaceholder": "Your password",
+  "login": "Login",
+  "logout": "Logout",
+  "loginButtonTitle": "Log in",
+  "loginErrorText": "Something went wrong... Please try again later.",
+  "loginErrorTitle": "Oops...",
+  "loginPageTitle": "Log in",
+  "ok": "OK",
+  "pageNotFoundError": "Something went wrong...",
+  "refresh": "Refresh",
+  "startupError": "Something went wrong... Click to refresh",
+  "wrongEmailOrPassword": "Wrong email or password."
+}

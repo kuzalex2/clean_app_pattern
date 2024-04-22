@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - test/**
+    - lib/firebase_options.dart
+  errors:
+    must_be_immutable: error
+    use_key_in_widget_constructors: error

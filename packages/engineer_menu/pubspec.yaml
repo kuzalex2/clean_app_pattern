@@ -1,0 +1,32 @@
+name: engineer_menu
+description: engineer_menu
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^9.1.0
+  package_info_plus: 4.2.0
+  shake_gesture:
+    git:
+      url: https://github.com/horson/shake_gesture
+      ref: main
+      path: shake_gesture
+  logger: ^2.0.2+1
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+  filesystem_picker: ^4.1.0
+  synchronized: ^3.1.0
+  utils: any
+  log: any
+
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.21.0
+  flutter_lints: ^3.0.0

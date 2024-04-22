@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - test/**
+    - lib/src/ui/res/**
+
+  errors:
+    must_be_immutable: error
+    use_key_in_widget_constructors: error
