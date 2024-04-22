@@ -67,7 +67,6 @@ class EngineerScreen extends StatelessWidget {
                       SelectableText(user.id),
                       SelectableText(user.email),
                     ]);
-                    //;${user.id} ${user.email}");
                   } else {
                     return const Text("User: null");
                   }

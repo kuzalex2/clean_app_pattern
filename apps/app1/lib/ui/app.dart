@@ -73,7 +73,7 @@ class _SampleAppMaterialState extends State<_SampleAppMaterial> {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       theme: ThemeData(
-        colorScheme: const ColorScheme.light(primary: KitColors.buttonLabelDanger),
+        colorScheme: const ColorScheme.light(primary: KitColors.baseColor),
         useMaterial3: false,
       ),
       routeInformationParser: AppRouter.instance.router.routeInformationParser,
