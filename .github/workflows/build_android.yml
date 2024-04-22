@@ -49,21 +49,3 @@ jobs:
           name: apk-release
           path: apps/planner/build/app/outputs/flutter-apk/app-release.apk
 
-      - name: send apk to telegram
-        if: github.ref_type == 'tag'
-        uses: appleboy/telegram-action@master
-        with:
-          to: "-1001663075292"
-          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          document: apps/planner/build/app/outputs/flutter-apk/app-release.apk
-          message: APK ${{ github.repository }} версии ${{ github.ref_name }}
-
-#      - name: Firebase App Distribution
-#        uses: wzieba/Firebase-Distribution-Github-Action@v1
-#        with:
-#          appId: ${{secrets.FIREBASE_APP_ID}}
-#          serviceCredentialsFileContent: ${{secrets.FIREBASE_APP_DIST}}
-##          groups: preview
-#          file: apps/planner/build/app/outputs/apk/release/app-release.apk
-
-

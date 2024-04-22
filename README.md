@@ -3,9 +3,8 @@
 
 
 ```
-cd s_clean_arch
+cd clean_app_pattern 
 dart pub global activate melos
 melos bs && melos list --graph
-
 
 ```
