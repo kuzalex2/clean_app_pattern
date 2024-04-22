@@ -1,0 +1,36 @@
+name: feature_main_screen
+description: Feature Main Screen
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  flutter_bloc: ^8.1.3
+  rxdart: ^0.27.7
+  equatable: ^2.0.5
+  formz: ^0.6.0
+  router: any
+  utils: any
+  analytics: any
+  uikit: any
+
+  feature_auth: any
+  feature_inbox: any
+  feature_notifications: any
+
+  engineer_menu: any
+  log: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0
+  test: ^1.21.0
+  flutter_lints: ^3.0.0

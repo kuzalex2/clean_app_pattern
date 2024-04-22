@@ -1,0 +1,9 @@
+arb-dir: lib/src/ui/res
+template-arb-file: strings_en.arb
+
+output-dir: lib/src/ui/res
+output-localization-file: strings.dart
+output-class: NotificationsStrings
+
+synthetic-package: false
+nullable-getter: false

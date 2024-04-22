@@ -1,0 +1,18 @@
+localizely_project_id: PROJECT_ID
+project_key: PROJECT_KEY
+
+locales:
+  en:
+  ru:
+
+packages:
+  featureAuth:
+    path: packages/features/feature_auth
+  featureMainScreen:
+    path: packages/features/feature_main_screen
+  featureInbox:
+    path: packages/features/feature_inbox
+  featureNotifications:
+    path: packages/features/feature_notifications
+
+
